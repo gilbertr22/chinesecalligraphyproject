@@ -4,7 +4,7 @@ window.onload = function () {
   var canvas = document.getElementById("paint-canvas");
   var context = canvas.getContext("2d");
   var boundings = canvas.getBoundingClientRect();
-  context.font = "128px Arial";
+  context.font = "200px Arial";
   context.strokeText("你好", 200, 200);
   var current = 0;
   var words=["你好","米饭","饺子","水","山","江"];
