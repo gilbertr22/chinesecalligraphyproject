@@ -1,0 +1,68 @@
+
+* {
+  box-sizing: border-box;
+}
+p {
+    font-family: arial;
+    padding:10px;
+}
+main {
+  width: 800px;
+  border: 1px solid #e0e0e0;
+  margin: 0 auto;
+  display: flex;
+  flex-grow: 1;
+}
+
+.left-block {
+  width: 160px;
+  border-right: 1px solid #e0e0e0;
+}
+
+.colors {
+  background-color: #ece8e8;
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+
+.colors button {
+  display: inline-block;
+  border: 1px solid #00000026;
+  border-radius: 0;
+  outline: none;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 5px
+}
+
+
+.buttons {
+  height: 80px;
+  padding-top: 10px;
+}
+
+.buttons button {
+  display: block;
+  width: 100%;
+  border: 0;
+  border-radius: 10px;
+  background-color: #ece8e8;
+  margin-bottom: 5px;
+  padding: 5px;
+  height: 30px;
+  outline: none;
+  position: relative;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.right-block {
+  width: 640px;
+}
+
+#paint-canvas {
+  cursor:crosshair;
+}
+/*Major help from: https://codepen.io/alperentalaslioglu/pen/yPGgvP*/
